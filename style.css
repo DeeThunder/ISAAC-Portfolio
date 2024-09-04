@@ -1,0 +1,202 @@
+body{
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.5em;
+    background-color: aliceblue;
+    margin: 10px;
+    height: 10%;
+}
+
+div.background{
+    background-color: aliceblue;
+    height: 90%;
+}
+div.head{
+    text-align: left;
+    margin: 0px;
+    width: 40%;
+    height: 100%;
+    padding: 0px 0px 0px 20px;
+    float: left;
+    position: relative;
+    top: 410px;
+    left: 50px;
+}
+
+.logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    color: #261d52;
+    font-size: 3rem;
+    display: inline;
+}
+
+span{
+    color: #f7cd22;
+}
+
+p{
+    text-align: left;
+    font-size: 1rem;
+    display: block;
+    color: b#261d52;
+}
+
+img.image{
+    
+    padding: 10px;
+    width: 50%;
+    height: 680px;
+}
+
+.button{
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: #f7cd22;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #261d52;
+    display: block;
+}
+
+div.image{
+    width: 60%;
+    height: 30%;
+    padding: 20px;
+    float: right;
+}
+
+div.box{
+    width: 32%;
+    height: 200px;
+    clear: both;
+    display: inline-block;
+    margin: auto;
+    
+}
+
+div.second{
+    display: inline-block;
+   
+}
+div.third{
+    display: inline-block;
+}
+.box>.im{
+    text-align: center;
+    color: #261d52;
+    font-size: 1rem;
+    margin: auto;
+    text-decoration: none;
+    display: block;
+}
+div.box>img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    clear: both; 
+    background-color: aliceblue;
+    height: 10%;
+}
+.foot{
+    
+    color: #261d52;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+}
+
+
+@media (max-width:1200px) {
+    div.head{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        padding: 0px 0px 0px 20px;
+        position: static;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+    
+    h1{
+        font-size: 2rem;
+        display: block;
+        margin: auto;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 1rem;
+        margin: auto;
+    }
+    
+    .button{
+        width: 70%;
+        padding: 10px;
+        font-size: 1rem;
+        text-align: center;
+        display: inline-block;
+        margin: 0px 0px 10px 0px;
+    }
+   .image{
+        display: none;
+    }
+    
+    div.box{
+        border: 10px 10px 10px 10px;
+        border-color: aliceblue;
+        border-style:solid ;
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    div.second{
+        display: block;
+       
+    }
+    div.third{
+        display: block;
+    }
+    .box>p{
+        text-align: center;
+        color: #261d52;
+        font-size: 1rem;
+        margin: auto;
+        background-color: aliceblue;
+        text-decoration: none;
+    }
+    div.box>img{
+        width: 100%;
+        height: 50%;
+    }
+    
+    footer{
+        clear: both; 
+        background-color: aliceblue;
+        height: 10%;
+    }
+    .foot{
+        
+        color: #261d52;
+        text-align: center;
+        font-size: 1rem;
+        display: block;
+    }
+    
+}
